@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Việt Travel</title>
+    <link rel="stylesheet" href="asset/css/base.css">
+    <link rel="stylesheet" href="asset/css/reset.css">
+    <link rel="stylesheet" href="asset/css/main.css">
+    <link rel="stylesheet" href="asset/css/grid.css">
+    <link rel="stylesheet" href="asset/css/responsive.css">
+    <script src="https://kit.fontawesome.com/7bcb1b3896.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="header__topbar">
+            <div class="grid wide">
+                <div class="header__topbar_container">
+                    <div class="row">
+                        <div class="l-6 m-8 c-8">
+                            <div class="topbar--contact">
+                                <span><a href="tel:08021639917">+81 80 2163 9917</a></span>
+                                <a href="#"><i class="fab fa-facebook-f topbar__icon"></i></a>
+                                <a href="#"><i class="fab fa-instagram topbar__icon"></i></a>
+                                <a href="#"><i class="fab fa-twitter topbar__icon"></i></a>
+                                <a href="#"><i class="fab fa-telegram-plane topbar__icon"></i></a>
+                            </div>
+                        </div>
+                        <div class="l-6 m-4 c-4">
+                            <div class="topbar__register">
+                                <a href="#">đăng ký</a>
+                                <a href="#">|</a>
+                                <a href="#">đăng nhập</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="head__nav">
+            <div class="head__nav__container">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-4 m-5 c-8">
+                            <a href="">
+                                <div class="head__nav__container--logo">
+                                    <i class="fas fa-globe-asia head__nav__icon--logo"></i>
+                                    VNTRAVEL
+                                </div>
+                             </a>
+                        </div>
+                        <div class="col l-8 m-7 c-6 hide-on-low-devices">
+                            <ul class="head__nav__container--list">
+                                <li><a href="index.html" class="active">Trang chủ</a></li>
+                                <li><a href="dexuat.html">Đề xuất</a></li>
+                                <li><a href="khuyenmai.html">Khuyến mãi</a></li>
+                                <li><a href="news.html">Tin tức</a></li>
+                                <li><a href="contact.html">liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="col m-6 c-4">
+                            <label for="head__nav__mb--checkbox" class="head__nav__mb--bar">
+                                <i class="fas fa-bars"></i>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="head__slider">
+            <div class="head__slider--content">
+                <h1 class="head__slider--heading">
+                    VIET NAM
+                </h1>
+                <span class="head__slider--heading">Trevel</span>
+            </div>
+            <div class="btn__wrap">
+                <div class="btn__bg"></div>
+                <span class="btn">Đặt vé...</span>
+            </div>
+        </div>
+        <!-- Header mb bar -->
+        <div class="head__mb__bar--container">
+            <input type="checkbox" name="" id="head__nav__mb--checkbox" class="head__mb__bar--input" hidden>
+            <div class="head__mb__bar--content">
+                <label for="head__nav__mb--checkbox" class="head__mb__bar--close">
+                    <i class="fas fa-times"></i>
+                </label>
+                <div class="head__mb_bar--list">
+                    <a href="index.html" class="head__mb__bar--link">Trang chủ</a>
+                    <a href="dexuat.html" class="head__mb__bar--link">Đề xuất</a>
+                    <a href="khuyenmai.html" class="head__mb__bar--link">khuyến mãi</a>
+                    <a href="news.html" class="head__mb__bar--link">Tin tức</a>
+                    <a href="contact.html" class="head__mb__bar--link">liên hệ</a>
+                </div>
+            </div>
+            <label for="head__nav__mb--checkbox" class="head__mb__bar--overlay"></label>
+        </div>
+    </header>
+    <div class="container">
+        <section class="search">
+            <div class="grid wide">
+                <div class="search__head">
+                    <ul class="search__head__list--pc hide-on-low-devices">
+                        <li class="search__head_item">
+                            <i class="fas fa-hotel search__icon"></i>
+                            khách sạn</li>
+                        <li class="search__head_item">
+                            <i class="fas fa-plane-departure search__icon"></i>
+                            máy bay</li>
+                        <li class="search__head_item">
+                            <i class="fas fa-car search__icon"></i>
+                            thuê xe</li>
+                        <li class="search__head_item">
+                            <i class="fas fa-map-marked-alt search__icon"></i>
+                            điểm đến</li>
+                        <li class="search__head_item">
+                            <i class="fas fa-swimmer search__icon"></i>
+                            hoạt động</li>
+                    </ul>
+                </div>
+                <div class="search__container">
+                    <div class="search__head--tb-mb hide-on-pc">
+                        <div class="row">
+                            <div class="col m-6 c-12">
+                                <a href="#" class="search__head--tb-mb-link">
+                                    <i class="fas fa-hotel search__tb-mb-icon"></i>
+                                    khách sạn
+                                </a>
+                            </div>
+                            <div class="col m-6 c-12">
+                                <a href="#" class="search__head--tb-mb-link">
+                                    <i class="fas fa-plane-departure search__tb-mb-icon"></i>
+                                    máy bay
+                                </a>
+                            </div>
+                            <div class="col m-6 c-12">
+                                <a href="#" class="search__head--tb-mb-link">
+                                    <i class="fas fa-car search__tb-mb-icon"></i>
+                                    thuê xe
+                                </a>
+                            </div>
+                            <div class="col m-6 c-12">
+                                <a href="#" class="search__head--tb-mb-link">
+                                    <i class="fas fa-map-marked-alt search__tb-mb-icon"></i>
+                                    điểm đến
+                                </a>
+                            </div>
+                            <div class="col m-6 c-12">
+                                <a href="#" class="search__head--tb-mb-link">
+                                    <i class="fas fa-swimmer search__tb-mb-icon"></i>
+                                    hoạt động
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-4 l-o-1 m-6 c-12">
+                            <div class="search__section">
+                                <div class="search__label">Điểm đến</div>
+                                <input type="text" class="search__input" required placeholder="Nhập điểm đến của bạn">
+                            </div>
+                        </div>
+                        <div class="col l-2 m-6 c-12">
+                            <div class="search__section">
+                                <div class="search__label">check in</div>
+                                <input type="text" class="search__input" placeholder="11:00">
+                            </div>
+                        </div>
+                        <div class="col l-2 m-6 c-12">
+                            <div class="search__section">
+                                <div class="search__label">check out</div>
+                                <input type="text" class="search__input" placeholder="18:00">
+                            </div>
+                        </div>
+                        <div class="col l-1 m-3 c-12">
+                            <div class="search__section">
+                                <div class="search__label">số người</div>
+                                <input type="text" class="search__input">
+                            </div>
+                        </div>
+                        <div class="col l-1 m-3 c-12">
+                            <div class="search__section">
+                                <div class="search__label">trẻ em</div>
+                                <input type="text" class="search__input">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-2 l-o-5 m-5 m-o-7 c-6 c-o-6">
+                            <div class="search__btn">Tìm</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="trending">
+            <div class="grid wide trending__container">
+                <div class="section__title">
+                    Địa điểm hot
+                </div>
+                <div class="trending__content">
+                    <div class="row">
+                        <div class="col l-3 m-4 c-6">
+                            <div class="trending__item">
+                                <div class="trending__item__img">
+                                    <img src="img/hcm.jpg" alt="">
+                                </div>
+                                <div class="trending__item__content">
+                                    <div class="trending__item__name">Quận 7</div>
+                                    <div class="trending__item__price">2.500.000đ</div>
+                                    <div class="trending__itme__place">HCM</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-4 c-6">
+                            <div class="trending__item">
+                                <div class="trending__item__img">
+                                    <img src="img/gialai.jpg" alt="">
+                                </div>
+                                <div class="trending__item__content">
+                                    <div class="trending__item__name">Pleiku</div>
+                                    <div class="trending__item__price">2.000.000đ</div>
+                                    <div class="trending__itme__place"> Gia lai</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-4 c-6">
+                            <div class="trending__item">
+                                <div class="trending__item__img">
+                                    <img src="img/vinhahlong1.jpg" alt="">
+                                </div>
+                                <div class="trending__item__content">
+                                    <div class="trending__item__name">Vịnh Hạ Long</div>
+                                    <div class="trending__item__price">3.500.000đ</div>
+                                    <div class="trending__itme__place">quảng ninh</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-4 c-6">
+                            <div class="trending__item">
+                                <div class="trending__item__img">
+                                    <img src="img/caubantay.jpg" alt="">
+                                </div>
+                                <div class="trending__item__content">
+                                    <div class="trending__item__name">Cầu bàn tay</div>
+                                    <div class="trending__item__price">2.000.000đ</div>
+                                    <div class="trending__itme__place">Đà nẵng</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-4 c-6">
+                            <div class="trending__item">
+                                <div class="trending__item__img">
+                                    <img src="img/hue.jpg" alt="">
+                                </div>
+                                <div class="trending__item__content">
+                                    <div class="trending__item__name">Kinh thành huế</div>
+                                    <div class="trending__item__price">3.000.000đ</div>
+                                    <div class="trending__itme__place">Huế</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-4 c-6">
+                            <div class="trending__item">
+                                <div class="trending__item__img">
+                                    <img src="img/krisztian-tabori-9r2yeRccyls-unsplash.jpg" alt="">
+                                </div>
+                                <div class="trending__item__content">
+                                    <div class="trending__item__name">sapa</div>
+                                    <div class="trending__item__price">3.000.000đ</div>
+                                    <div class="trending__itme__place">phan thiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-0 c-0">
+                            <div class="trending__item">
+                                <div class="trending__item__img">
+                                    <img src="img/55496012_1358428420979641_6379262599162232832_o.jpg" alt="">
+                                </div>
+                                <div class="trending__item__content">
+                                    <div class="trending__item__name">Đầm sen</div>
+                                    <div class="trending__item__price">1.500.000đ</div>
+                                    <div class="trending__itme__place">Gia lai</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-0 c-0">
+                            <div class="trending__item">
+                                <div class="trending__item__img">
+                                    <img src="img/phuquoc.jpg" alt="">
+                                </div>
+                                <div class="trending__item__content">
+                                    <div class="trending__item__name">Đảo phú quốc</div>
+                                    <div class="trending__item__price">3.000.000đ</div>
+                                    <div class="trending__itme__place">phú quốc</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="grid wide footer__container">
+            <div class="row">
+                <div class="col l-4 m-6 c-12">
+                    <div class="footer__item">
+                        <div class="footer__item__name">
+                            <div class="footer__logo">
+                                <i class="fas fa-globe-asia head__nav__icon--logo"></i>
+                                <span class="footer__logo--name">VNTRAVEL</span>
+                            </div>
+                        </div>
+                        <div class="footer__item__content">
+                            <p>
+                                VNTRAVER sẽ mang đên cho bạn những dịch vụ và trải 
+                                nghiệm tuyệt vời nhất với những địa điểm đẹp nhất 
+                                đất nước hình chữ S.
+                            </p>
+                            <div class="footer__about__list">
+                                <a href="#" class="footer__about--link">
+                                    <i class="fab fa-facebook-f footer__icon"></i>
+                                </a>
+                                <a href="#" class="footer__about--link">
+                                    <i class="fab fa-instagram footer__icon"></i>
+                                </a>
+                                <a href="#" class="footer__about--link">
+                                    <i class="fab fa-twitter footer__icon"></i>
+                                </a>
+                                <a href="#" class="footer__about--link">
+                                    <i class="fab fa-telegram-plane footer__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-4 m-6 c-12">
+                    <div class="footer__item__name">
+                        <h4>TAGS</h4>
+                    </div>
+                    <div class="footer__item__content">
+                        <a href="" class="footer__tag__link">hội an</a>
+                        <a href="" class="footer__tag__link">giá rẻ</a>
+                        <a href="" class="footer__tag__link">lặn</a>
+                        <a href="" class="footer__tag__link">travel</a>
+                        <a href="" class="footer__tag__link">giảm giá</a>
+                        <a href="" class="footer__tag__link">đà nẵng</a>
+                        <a href="" class="footer__tag__link">BBQ</a>
+                        <a href="" class="footer__tag__link">biển</a>
+                    </div>
+                </div>
+                <div class="col l-4 m-12 c-12">
+                    <div class="footer__item__name">
+                        <h4>Liên hệ</h4> 
+                    </div>
+                    <div class="footer__item__content">
+                        <div class="footer__item__info">
+                            <a href="" class="footer__info--link">
+                                <i class="fas fa-map-marked-alt"></i>
+                                IaGrai,Gia Lai
+                            </a>
+                        </div>
+                        <div class="footer__item__info">
+                            <a href="tel:08021639917" class="footer__info--link">
+                                <i class="fas fa-phone-alt"></i>
+                                +81 80-2163-9917
+                            </a>
+                        </div>
+                        <div class="footer__item__info">
+                            <a href="mailto:hungle99.japan@gmail.com" class="footer__info--link">
+                                <i class="fas fa-envelope-open-text"></i>
+                                hungle99.japan@gmail.com
+                            </a>
+                        </div>
+                        <div class="footer__item__info">
+                            <a href="" class="footer__info--link">
+                                <i class="fas fa-globe"></i>
+                                www.hungle99jp.vn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                Copyright © by Hung Le
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
