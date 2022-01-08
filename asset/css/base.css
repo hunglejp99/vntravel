@@ -225,6 +225,7 @@ span.head__slider--heading {
     color: var(--white-color);
 }
 .btn__wrap {
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
     position: relative;
     border-radius: 30px;
     overflow: hidden;
