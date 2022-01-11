@@ -282,7 +282,7 @@ footer .footer__container {
 .footer__item__name {
     margin-bottom: 20px;
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     height: 47px;
     font-size: 15px;
     color: var(--white-color);
