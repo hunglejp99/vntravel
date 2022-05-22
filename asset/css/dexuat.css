@@ -124,12 +124,10 @@ header {
     line-height: 35px;
     padding-left: 22px;
 }
-.offers__item__content {
-    padding: 0 15px;
-}
+
 .offers__item__price {
     display: inline-block;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 700;
     color: var(--primary-color);
     line-height: 25px;

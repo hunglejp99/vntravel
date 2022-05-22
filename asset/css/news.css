@@ -53,6 +53,12 @@
     margin: 35px 0 10px 0;
     color: var(--white-color);
 }
+.news__item__body {
+    overflow: hidden;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+}
 .news__item__body p {
     font-size: 14px;
     color: var(--white-color);

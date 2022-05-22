@@ -232,7 +232,7 @@ span.head__slider--heading {
     display: inline-block;
 }
 .btn__wrap:hover .btn__bg{
-    transform: translateX(-110px);
+    transform: translateX(-85px);
 }
 .btn__bg {
     background: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
