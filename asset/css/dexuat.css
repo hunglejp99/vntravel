@@ -137,6 +137,7 @@ header {
 }
 .offers__item__rating i{
     font-size: 14px;
+    color: #a5a5a5;
 }
 .offers__item__rating .rated {
     color: #fbb53d;
